@@ -1,0 +1,222 @@
+// ─────────────────────────────────────────────────────────────
+// All site content lives here. Edit this file to change the site.
+// To add an invitation, copy one object in `invitations` and
+// change the values. Set `trending: true` to show it in the
+// "Trending designs" row.
+// ─────────────────────────────────────────────────────────────
+
+export const brand = {
+  name: "Hexameta Invites",
+  tagline: "Digital wedding invitations",
+  headline: "Invitations your guests open on their phones.",
+  subheadline:
+    "Custom-built wedding invitation pages with music, countdowns, maps and RSVP. Open any design below and see it live.",
+  instagram: "https://instagram.com/", // TODO: add your Instagram link
+  instagramHandle: "@your_handle", // TODO: add your handle
+};
+
+export const contact = {
+  whatsappNumber: "917558978583", // TODO: country code + number, no "+" or spaces
+  whatsappMessage: "Hi, I want to know more about a digital wedding invitation.",
+};
+
+export const stats = [
+  { value: "100+", label: "Live invitations" },
+  { value: "React & Tailwind", label: "Built with" },
+  { value: "1-2 day", label: "Typical delivery" },
+];
+
+export const invitations = [
+  {
+    id: "riyas-fathima",
+    title: "Riyas & Fathima",
+    category: "Wedding",
+    date: "5 Apr 2026",
+    place: "",
+    url: "https://riyas-and-fathima.vercel.app/",
+    image: "https://riyas-and-fathima.vercel.app/social.jpg",
+    color: "#064e3b",
+    features: ["Photo cover", "Share link"],
+    trending: true,
+    source: "Me",
+  },
+  {
+    id: "sadiya-waseem",
+    title: "Sadiya & Waseem",
+    category: "Nikkah",
+    date: "20 Dec 2026",
+    place: "Kolar",
+    url: "https://sadiya-weds-waseem.vercel.app/",
+    image: "https://sadiya-weds-waseem.vercel.app/images/banner-1.png",
+    color: "#98A869",
+    features: ["Music", "Nikkah & Valima details", "Map"],
+    trending: true,
+    source: "Me",
+  },
+  {
+    id: "sahad-thamseera",
+    title: "Sahad & Fathimath Thamseera",
+    category: "Nikkah",
+    date: "31 Dec 2026",
+    place: "Puttur",
+    url: "https://sahad-wedding.vercel.app/",
+    image: "https://sahad-wedding.vercel.app/og-image.jpg",
+    color: "#0b3b2e",
+    features: ["Countdown", "Venue map", "Share link"],
+    trending: true,
+    source: "Me",
+  },
+  {
+    id: "akmal-thamanna",
+    title: "Akmal & Thamanna",
+    category: "Wedding",
+    date: "",
+    place: "",
+    url: "https://akmal-wedding.vercel.app/",
+    image: "https://akmal-wedding.vercel.app/akmalvsthamanna.jpg",
+    color: "#7a4a2b",
+    features: ["Photo cover", "Share link"],
+    trending: false,
+    source: "Me",
+  },
+  // ── Added from digiwed161-sys.github.io ─────────────────────
+  {
+    id: "benson-richa",
+    title: "Benson & Richa",
+    category: "Holy Matrimony",
+    date: "20 Jan 2027",
+    place: "Thiruvalla",
+    url: "https://digiwed161-sys.github.io/bensonwedsricha/",
+    image: "https://digiwed161-sys.github.io/bensonwedsricha/og-thumb.png",
+    color: "#3b2f4a",
+    features: ["Countdown", "Family details", "Wishes wall", "Add to calendar"],
+    trending: false,
+    source: "DigiWed",
+  },
+  {
+    id: "ayisha-farseen",
+    title: "Dr. Ayisha & Muhammed Farseen",
+    category: "Nikah & Wedding",
+    date: "25 & 27 Sep 2026",
+    place: "Siddapur, Nadavayal",
+    url: "https://digiwed161-sys.github.io/AyishawedsFarseen/",
+    image: "https://digiwed161-sys.github.io/AyishawedsFarseen/og-thumb.jpg",
+    color: "#2f4a3b",
+    features: ["Two events", "RSVP", "Countdown", "Wishes wall"],
+    trending: false,
+    source: "DigiWed",
+  },
+  {
+    id: "vijith-lakshmi",
+    title: "Vijith Vikram & Lakshmi Haridas",
+    category: "Wedding",
+    date: "10 & 11 Sep 2026",
+    place: "Guruvayur, Trivandrum",
+    url: "https://digiwed161-sys.github.io/VijithwedsLakshmi/",
+    image: "https://digiwed161-sys.github.io/VijithwedsLakshmi/og-thumb.jpg?v=3",
+    color: "#b4476a",
+    features: ["Three occasions", "Directions", "Dress code", "RSVP on WhatsApp"],
+    trending: true,
+    source: "DigiWed",
+  },
+  {
+    id: "aslam-nidha",
+    title: "Aslam & Nidha",
+    category: "Wedding",
+    date: "19 Jul 2026",
+    place: "Eramangalam",
+    url: "https://digiwed161-sys.github.io/Aslam_weds_nidha/",
+    image:
+      "https://res.cloudinary.com/dormnrhdf/image/upload/w_1200,h_630,c_fill,g_faces/v1781017308/IMG-20260516-WA0026_1_b9ypt3.jpg",
+    color: "#1f3a5f",
+    features: ["Boarding pass theme", "RSVP", "Map", "Duas wall"],
+    trending: true,
+    source: "DigiWed",
+  },
+  {
+    id: "fahis-mubashira",
+    title: "Fahis & Mubashira",
+    category: "Nikah",
+    date: "7 Sep 2026",
+    place: "Kamburam",
+    url: "https://digiwed161-sys.github.io/FahiswedsMubashira/",
+    image: "https://digiwed161-sys.github.io/FahiswedsMubashira/og-thumb-v2.jpg",
+    color: "#c98a9b",
+    features: ["Intro video", "Countdown", "Dress code", "Wishes wall"],
+    trending: false,
+    source: "DigiWed",
+  },
+  {
+    id: "muhzin-irfana",
+    title: "Muhzin & Irfana",
+    category: "Nikah",
+    date: "27 Aug 2026",
+    place: "Kollam",
+    url: "https://digiwed161-sys.github.io/MuhzinwedsIrfana/",
+    image: "https://digiwed161-sys.github.io/MuhzinwedsIrfana/og-thumb.jpg",
+    color: "#6b5a2e",
+    features: ["Photo gallery", "Countdown", "Maps", "RSVP"],
+    trending: false,
+    source: "DigiWed",
+  },
+  {
+    id: "sahal-fasmina",
+    title: "Sahal & Fasmina",
+    category: "Wedding Reception",
+    date: "21 Sep 2026",
+    place: "Kunnukara",
+    url: "https://digiwed161-sys.github.io/SahalwedsFasmina2/",
+    image: "https://digiwed161-sys.github.io/SahalwedsFasmina2/og-thumb.png",
+    color: "#4a3b2f",
+    features: ["Countdown", "Save the card", "Wishes wall"],
+    trending: false,
+    source: "DigiWed",
+  },
+  {
+    id: "akhila-jevins",
+    title: "Akhila & Jevins",
+    category: "Wedding",
+    date: "22 Aug 2026",
+    place: "Thrissur",
+    url: "https://digiwed161-sys.github.io/Akhila_weds_jevins/",
+    image:
+      "https://res.cloudinary.com/dormnrhdf/image/upload/f_auto,q_auto,w_800/v1782555294/Screenshot_20260627_131309_Gallery_rtwpat.jpg",
+    color: "#2b4a6f",
+    features: ["Three events", "Love story timeline", "Live stream", "Gift registry"],
+    trending: true,
+    source: "DigiWed",
+  },
+  {
+    id: "shamil-farbinsha",
+    title: "Shamil & Farbinsha",
+    category: "Wedding",
+    date: "1 Aug 2026",
+    place: "Calicut",
+    url: "https://digiwed161-sys.github.io/Shamil_weds_farbinsha/",
+    image:
+      "https://res.cloudinary.com/dormnrhdf/image/upload/c_fill,g_auto,w_1200,h_630,q_auto:good,f_jpg/v1782023027/digiwed-invitations/shamil-farbinsha/IMG-20260620-WA0048_o2o1ng.jpg",
+    color: "#7a5a2b",
+    features: ["Tap to open", "Venue map", "Add to calendar", "Duas wall"],
+    trending: false,
+    source: "DigiWed",
+  },
+  {
+    id: "nihaal-hajara",
+    title: "Nihaal & Hajara",
+    category: "Wedding album",
+    date: "23 May 2026",
+    place: "Aloor",
+    url: "https://digiwed161-sys.github.io/NihaalwedsHajara/",
+    image: "https://digiwed161-sys.github.io/NihaalwedsHajara/og-thumb.jpg",
+    color: "#16100a",
+    features: ["Photos and reels", "Guest wall", "Find my photos"],
+    trending: false,
+    source: "DigiWed",
+  },
+];
+
+export const steps = [
+  { title: "Share your details", text: "Names, date, venue and photos. A WhatsApp message is enough." },
+  { title: "Pick a design", text: "Open any invitation above and tell me which one you like." },
+  { title: "Review and publish", text: "You get a private preview first. After your changes, the link goes live." },
+];

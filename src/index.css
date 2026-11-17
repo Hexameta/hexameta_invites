@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-mist font-body text-deep antialiased; }
+:focus-visible { outline: 2px solid #b4476a; outline-offset: 3px; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+.hero-rise { animation: rise .8s cubic-bezier(.2,.7,.2,1) both; }
+.hero-rise.d1 { animation-delay: .12s; }
+.hero-rise.d2 { animation-delay: .24s; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .hero-rise { animation: none; }
+}
